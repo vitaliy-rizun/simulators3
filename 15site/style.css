@@ -1,0 +1,21 @@
+body {
+  padding: 20px;
+}
+
+.block {
+  min-height: 190px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #3a78a1;
+}
+
+.block-fixed {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.5);
+}
