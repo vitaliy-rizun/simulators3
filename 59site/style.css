@@ -1,0 +1,40 @@
+.messages {
+  /* градиент от #71d5f4 к #337cd2 */
+  background-image: linear-gradient(#71d5f4, #337cd2);
+}
+
+.weather {
+  /* градиент от #ff792e к #ffe662 */
+  background-image: linear-gradient(to right top, #ff792e, #ffe662);
+}
+
+.camera {
+  /* градиент от #9a66ba к #f98edb */
+  background-image: linear-gradient(to right, #9a66ba, #f98edb);
+}
+
+.music {
+  /* градиент от #6ffc75 к #4cb350 */
+  background-image: linear-gradient(to right bottom, #6ffc75, #4cb350);
+}
+/* Предыдущий код
+.messages {
+  /* градиент от #71d5f4 к #337cd2 * /
+  background-image: linear-gradient(180deg, #71d5f4, #337cd2);
+}
+
+.weather {
+  /* градиент от #ff792e к #ffe662 * /
+  background-image: linear-gradient(45deg, #ff792e, #ffe662);
+}
+
+.camera {
+  /* градиент от #9a66ba к #f98edb * /
+  background-image: linear-gradient(90deg, #9a66ba, #f98edb);
+}
+
+.music {
+  /* градиент от #6ffc75 к #4cb350 * /
+  background-image: linear-gradient(135deg, #6ffc75, #4cb350);
+}
+*/
