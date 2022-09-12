@@ -1,0 +1,38 @@
+.raccoon-card {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 200px 150px;
+  grid-template-areas:
+    "avatar name name"
+    "avatar email phone"
+    "skills skills qr";
+  width: 490px;
+  padding: 20px;
+}
+
+.name {
+  grid-area: name;
+  align-self: end;
+}
+
+.avatar {
+  grid-area: avatar;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.qr {
+  grid-area: qr;
+  justify-self: end;
+  align-self: end;
+}
