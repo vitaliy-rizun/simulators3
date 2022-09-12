@@ -1,0 +1,22 @@
+.card {
+  width: 540px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 260px 165px 75px;
+  grid-template-areas: "title title price"
+                       "options description description"
+                       "options disclaimer disclaimer";
+  gap: 20px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.price {
+  grid-area: price;
+}
+
+.options-list {
+  grid-area: options;
+}

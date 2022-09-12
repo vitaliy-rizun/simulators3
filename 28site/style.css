@@ -1,0 +1,11 @@
+.card {
+  width: 540px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  gap: 20px;
+}
+
+.title {
+  width: 360px;
+}
