@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+  background: url("bokeh.jpg") no-repeat 50% 0;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+article {
+  overflow: auto;
+  padding: 20px;
+  height: 200px;
+  background-color: rgba(240, 240, 240, 0.85);
+  line-height: 22px;
+  direction: rtl;
+}
+
+p {
+  margin-top: 0;
+  unicode-bidi: bidi-override;
+}
